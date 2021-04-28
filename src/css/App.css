@@ -1,0 +1,52 @@
+img {
+  width: 360px;
+}
+
+.HeaderImage {
+  display: flex;
+  justify-content: center;
+}
+
+.SurveyButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.SurveyButton button {
+  background-color: brown;
+  color: white;
+  width: 180px;
+  height: 50px;
+  margin: 10px;
+}
+
+.singleselect {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.inp {
+  width: 300px;
+}
+
+.options {
+  display: block;
+}
+
+.singleselect p {
+  flex-direction: row;
+}
+
+.op {
+  flex-direction: row;
+  margin-bottom: 20px;
+
+}
+
+.buttons {
+  flex-direction: row;
+}
