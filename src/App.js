@@ -11,7 +11,7 @@ import { ContextQuestions } from "./components/SurveyContext";
 
 export default function App() {
   return (
-    <ToastProvider autoDismissTimeout={3000}>
+    <ToastProvider autoDismissTimeout={2000}>
       <Router>
         <ContextQuestions>
           <Switch>
